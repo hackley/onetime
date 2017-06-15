@@ -1,0 +1,15 @@
+{
+  "name": "onetime",
+  "version": "0.0.1",
+  "description": "Encrypt messages with a one-time pad",
+  "main": "onetime.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hackley/onetime.git"
+  },
+  "author": "Nathan Hackley",
+  "license": "ISC"
+}
