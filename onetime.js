@@ -1,7 +1,7 @@
 var characters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ' ', ',', '.', '?'];
 
 
-function encrypt(message, pad) {
+export function encrypt(message, pad) {
   if (pad.length < message.length) {
     throw "pad not long enough"
   }
@@ -17,7 +17,7 @@ function encrypt(message, pad) {
 }
 
 
-function decrypt(encryptedMessage, pad) {
+export function decrypt(encryptedMessage, pad) {
   if (pad.length < encryptedMessage.length) {
     throw "pad not long enough"
   }
@@ -50,4 +50,3 @@ function fromMod26(number) {
 
   return characters[number];
 }
-
