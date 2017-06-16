@@ -1,5 +1,5 @@
 {
-  "name": "onetime",
+  "name": "@hackley/onetimepad",
   "version": "0.0.1",
   "description": "Encrypt messages with a one-time pad",
   "main": "onetime.js",
